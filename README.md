@@ -1,6 +1,6 @@
 ## Mini Event Platform (MERN)
 
-**Full-stack mini event platform** built as a MERN technical screening assignment.  
+**Full-stack mini event platform** built as a MERN stack to handle user authentication,event creation,and RSVPs.  
 Users can register/login, create and manage events, and RSVP with capacity enforcement.
 
 ### 1. Tech Stack
