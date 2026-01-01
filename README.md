@@ -3,6 +3,74 @@
 **Full-stack mini event platform** built as a MERN stack to handle user authentication,event creation,and RSVPs.  
 Users can register/login, create and manage events, and RSVP with capacity enforcement.
 
+mini-event-platform/
+│
+├── client/                        
+│   ├── public/
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── client.js           
+│   │   │
+│   │   ├── assets/                 
+│   │   │
+│   │   ├── components/             
+│   │   │   ├── EventCard.jsx
+│   │   │   ├── EventForm.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   │
+│   │   ├── pages/                  
+│   │   │   ├── CreateEventPage.jsx
+│   │   │   ├── EditEventPage.jsx
+│   │   │   ├── EventDetailPage.jsx
+│   │   │   ├── EventsListPage.jsx
+│   │   │   ├── LoginPage.jsx
+│   │   │   ├── RegisterPage.jsx
+│   │   │   ├── MyEventsPage.jsx
+│   │   │   └── NotFoundPage.jsx
+│   │   │
+│   │   ├── state/
+│   │   │   └── AuthContext.jsx     
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   ├── App.css
+│   │   └── index.css
+│   │
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── package.json
+│   └── README.md
+│
+├── server/                         
+│   ├── src/
+│   │   ├── config/
+│   │   │   └── db.js               
+│   │   │
+│   │   ├── middleware/
+│   │   │   └── auth.js             
+│   │   │
+│   │   ├── models/
+│   │   │   ├── User.js             
+│   │   │   └── Event.js            
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── authRoutes.js       
+│   │   │   └── eventRoutes.js      
+│   │   │
+│   │   └── index.js                
+│   │
+│   ├── server.js                   
+│   ├── .env                        
+│   ├── package.json
+│   └── README.md
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+
+
 ### 1. Tech Stack
 
 - **Frontend**: React + Vite, React Router, Axios
